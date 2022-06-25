@@ -10,4 +10,24 @@
 - більше 24, виводи рядок "Overdue"
 */
 
-const hours = 10;
+//Вариант 1
+// const hours = 10;
+
+// if (hours < 17) {
+//     console.log('Pending');
+// } else if (17 <= enteredNumber && enteredNumber <= 24) {
+//     console.log('Expires');
+// } else if (hours > 24) {
+//     console.log('Overdue');
+// }
+
+// Вариант 2
+let enteredNumber = prompt('Введите число');
+
+if (enteredNumber < 17) {
+    alert('Pending');
+} else if (17 <= enteredNumber && enteredNumber <= 24) {
+    alert('Expires');
+} else if (enteredNumber > 24) {
+    alert('Overdue');
+}
