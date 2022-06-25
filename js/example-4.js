@@ -7,4 +7,11 @@
 Якщо ні, додай до кінця значення link цей символ. Використовуй конструкцію if...else.
 */
 
-let link = "https://my-site.com/about";
+let link = 'https://my-site.com/about';
+const end = '/';
+
+if (link.endsWith('/')) {
+    console.log(link);
+} else {
+    console.log(link + end);
+}
