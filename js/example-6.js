@@ -31,3 +31,4 @@ if (enteredNumber < 17) {
 } else if (enteredNumber > 24) {
     alert('Overdue');
 }
+12;
